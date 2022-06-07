@@ -26,7 +26,7 @@ public class Servlet05 extends HttpServlet {
 		session.setAttribute("authUser", userVo);
 		
 		
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/05.header.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/05.jsp");
 		rd.forward(request, response);
 
 	}
